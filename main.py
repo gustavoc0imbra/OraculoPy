@@ -30,7 +30,7 @@ async def generate_answer(file: UploadFile = File(...)):
 
         response = model.generate_content(
             contents=[
-                'Descreveao áudio',
+                'Responda o áudio',
                 audio_part,
             ]
         )
